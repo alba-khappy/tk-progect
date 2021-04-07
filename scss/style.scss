@@ -6,7 +6,7 @@
 
 body {
     background-color: #10101d;
-    font-family: 'Lato-R', sans-serif;
+    font-family: "Lato-R", sans-serif;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
@@ -30,8 +30,13 @@ $paddingContainer: 0 375px;
     justify-content: center;
 }
 
+@mixin size {
+    width: 370px;
+    height: 48px;
+}
+
 @font-face { 
-    font-family: 'Lato-R'; 
+    font-family: "Lato-R"; 
     src: url('../fonts/Lato-Regular.woff2') format('woff2'), 
          url('../fonts/Lato-Regular.ttf')  format('truetype'),
          url('../fonts/Lato-Regular.woff') format('woff'); 
@@ -40,7 +45,7 @@ $paddingContainer: 0 375px;
   }
 
 @font-face { 
-    font-family: 'Lato-H'; 
+    font-family: "Lato-H"; 
     src: url('../fonts/Lato-Heavy.woff2') format('woff2'), 
          url('../fonts/Lato-Heavy.ttf')  format('truetype'),
          url('../fonts/Lato-Heavy.woff') format('woff'); 
@@ -77,7 +82,7 @@ a {
     white-space: nowrap;
     color: #302e2f;
     cursor: pointer;
-    font-family: 'Lato-SB', sans-serif;
+    font-family: "Lato-SB", sans-serif;
 }
 
 li {
@@ -127,7 +132,7 @@ li:not(:last-child) {
 
 a {
     color: #ffffff;
-    font-family: "Lato - Semibold";
+    font-family: "Lato-R", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 18px;
@@ -290,14 +295,13 @@ a {
 }
 
 .section-2__forms {
-    margin-top: 125px;
+    margin: 135px 0 30px;
     @include displayFlexSpaceBetween;
     align-items: center;
 }
 
 .input {
-    width: 370px;
-    height: 48px;
+    @include size;
     border-radius: $borderRadius;
     background-color: $greyColor;
     padding: 15px;
@@ -309,8 +313,7 @@ a {
 }
 
 .section-2--button {
-    width: 370px;
-    height: 48px;
+    @include size;
     border-radius: $borderRadius;
     border: 1px solid $greyColor;
     background-color: $blueColor;
@@ -319,6 +322,24 @@ a {
 
 .section-2__wrapper-slider-button {
     @include displayFlexSpaceBetween;
+    margin-bottom: 53px;
+}
+
+.section-2--slider--p--width {
+    width: 66%
+}
+
+.section-2--add-file {
+    @include size;
+    @include displayFlexCenter;
+    align-items: center;
+    color: #272733;
+    background-color: #ffffff;
+    border: 1px solid $blueColor;
+
+    > img {
+        margin-right: 15px;
+    }
 }
 
 /*choices*/
@@ -385,6 +406,10 @@ div.choices.is-focused.is-open::after {
 
 .section-2__slider--p {
     @include displayFlexSpaceBetween;
+
+    > label {
+        margin-bottom: 20px;
+    }
 }
 
 /*footer*/
@@ -397,18 +422,28 @@ div.choices.is-focused.is-open::after {
 }
 
 .footer__copyright {
-    width: 20%;
+    width: 27%;
+    font-size: 13px;
+}
+
+.footer__copyright::after {
+    content: "";
+    width: 1px;
+    height: 18px;
+    background-color: $greyColor;
+    margin-left: 60px;
+    position: absolute;
 }
 
 .footer__p {
+    font-size: 13px;
     white-space: nowrap;
     margin-right: 45px
 }
 
 .footer__ul {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
+    width: 65%;
+    @include displayFlexSpaceBetween;
 }
 
 .footer__li {
