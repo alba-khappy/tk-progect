@@ -1,17 +1,20 @@
-<svg display="none" xmlns="http://www.w3.org/2000/svg">
-
-<symbol id="1" viewBox="0 0 34 35"><g><g><g><text fill="#fff" dominant-baseline="text-before-edge" style="line-height:22px" font-family="'FontAwesome','FontAwesome'" font-size="36" font-style="none" font-weight="400"><tspan style="font-kerning:normal"></tspan></text></g></g></g></symbol>
-
-
-<symbol id="2" viewBox="0 0 36 29"><g><g><g><text fill="#fff" dominant-baseline="text-before-edge" style="line-height:22px" font-family="'FontAwesome','FontAwesome'" font-size="36" font-style="none" font-weight="400"><tspan style="font-kerning:normal"></tspan></text></g></g></g></symbol>
-
-
-<symbol id="3" viewBox="0 0 39 26"><g><g><g><text fill="#fff" dominant-baseline="text-before-edge" style="line-height:22px" font-family="'FontAwesome','FontAwesome'" font-size="36" font-style="none" font-weight="400"><tspan style="font-kerning:normal"></tspan></text></g></g></g></symbol>
-
-
-<symbol id="4" viewBox="0 0 31 36"><g><g><g><text fill="#fff" dominant-baseline="text-before-edge" style="line-height:22px" font-family="'FontAwesome','FontAwesome'" font-size="36" font-style="none" font-weight="400"><tspan style="font-kerning:normal"></tspan></text></g></g></g></symbol>
-
-
-<symbol id="5" viewBox="0 0 32 32"><g><g><g><text fill="#fff" dominant-baseline="text-before-edge" style="line-height:22px" font-family="'FontAwesome','FontAwesome'" font-size="36" font-style="none" font-weight="400"><tspan style="font-kerning:normal"></tspan></text></g></g></g></symbol>
-
+<svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15" id="Q">
+      <image width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAAAHNtsJAAACIklEQVQoFX1TPWhTURT+zn0vZtCaavMSrEhEN6EuWrt0UlBE6ewgpWpRXAo6uQgFQajg4lDsUNJSdXAQRBxc7OZidVGkhSiFampiamkTqLZ59/jdm1Q0Sg98nL/v3HPevecJWkTz7e3Q5FHAHoJKEkYWENsZfP72SYZh/6TLpqOPEaAanYTIdcZ6iLZmboN6HopHSMio9JfKzTh8sSr1RHSBne4w0UFUSJ5jdI12jjhAGOIZ1F6VS5UibR8A8tljLLxFv4Odn8OaM+xyCrWdZxHXjwN6k7kVog8IbugwQtoQP24tuk9zkP4rIDwnF4sLLrkpJBvsy1zjJCOMfYexp2Wg8sag1tnJAXo9UXS8tdDF/UUlZIrmOyKCBp5voOtZjpVmsIo4eE/9f1krLZM310ja/U4b3rFSOxiIDVywVfw3hhk+n+z1OZXYaRboV+oSsZ12twu2Cseuo16eYfEIv3uRrQqOY9C/VORNTzcK5LLms13Ods+nY7tS/hnpyxVscEXmWfgQoX3pOI13nswcRown9A8Sb0m4jUT4GnF8nk/3FKs7CmhbOQE1S4jNKgYXZ0XY0p3gRMezfex1j2aO+EF84dm7mZnlYXfpd/F+pmSg/JG2l9/FztOJ9BEuyBBNLgYyhNuqOlHhjB/IIPAC1dS0DBV+/lXMBHQMCQRRDqHJcRWTDFWb4L+CPfyMbk64jG3rD/4pdgdsJY2NTPdyUVK/ADlgtiqauu2FAAAAAElFTkSuQmCC"></image>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15" id="Web">
+      <image width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAAAHNtsJAAACSElEQVQoFU2TS0iVQRTH/zPfd6+ZacrtAT1wEWFBtCjEXRAtDCIiMgld2CIqHy2LiBYGQYsSJOgqUVBkKkQGkoGLoEW4a5VQEoIgRA8vBcoVH99Mv7kXb/fA+c45M+d/zn/mzGdULlcndyhaa5M3bTJ+n7xq2c7J+2cy+iYtjyjburQBiTYcdY03AhggvoyuAbwlY1axE4o0JNlaeZvoSHuiTyP5gLPho863R3Gf451Av1CkB0vC+m38GTnTJ+dnZeJOxaaDvYLE6h7LUP0u0UF0Gr0C7RbKdstHw8Q5tAna9RTrY73QlTVclzqPPR4CyafQwKaGgmnOuk1KBmXtGcnNSys/5KIGdU2cDNkx52rFVoRAMg18Hsj6m9SYoVtOLh0pSTIy9rFU1S/vVmm5iSaTMcmHAqxMGuToavw83R/KJF8pkuUoWD+n38tjqquMdfFDRQBXlwGDG2jXQXknTMKo9sjZObq3KIoalaneJbvepFS+OYAXUWiUpAb8fcA9dLpOx2XZhJFFh2XcS0qPc/tPYTNlSfhcgpUcv5vN/SS9x3ZQYFSxh41GYfNOC/kpPTr1hNvWKzArJVzR8ZjNAOvRAwXrOEZsuUi/V9sr29Xba01xzukhkgvXX1ZkCdANOvHa/FYsLJyFxWtyvhOfM4Xk8MKMXuCHh1IuC6xfA5wm+Q7jGWDms3Lup7KnPxbBIT28bdl7eMdQHktJ/uCFf2ALRd6oYv2S+s/+Dbv/wSEq/VW6QBTmX4XmyZoGOMyDGdFg8y/WCvIPfnDCQW616B4AAAAASUVORK5CYII="></image>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 11 15" id="Ya">
+      <image width="11" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAC6ADAAQAAAABAAAADwAAAAB0PvzGAAABWklEQVQoFXWQvUvDYBDGnzdpqzRVQYgfgyiiQlCkSxe/wEUcnAQVQR3cHUTcxcFJHYQuzv4POrgIuoljBydxEF0FSxtszufSJMYWD477+uW5ewP8Y7KBJVnHgQAmRjJxEkdZgw0Lq6zPiF2TJN80K040yjYcgodML+lD2qInlijLFgbh45iTHXouIVJJCHN1kaCuXaQbqgMB/Y8ukJFNLHNwzpFHDPufwOMbMM8jTvLI7c6iq9gNs9dLmOAFwXE6VPHhBXh+BaYHgFPfrAR5a8rvbAgaCgNjyoXG1ROERlyg3AMc1eBCxI2vUTj5j3rjVX/0YUxEpYbwgam6+bCoUefqtLXDnN5Q9a5q8FH/XaoftcHlb6DyZaHKaPPBhaygzyZJgQS+Z3FbM3j3DbIUHHYEowRLBD2VpSksXGueCFmESk6AGXY9vaDlkQpXCgaTCx2CORaJtYDa/wEe31YBkfMVUAAAAABJRU5ErkJggg=="></image>
+    </symbol>
+  </svg>
+  <svg class="icon">
+    <use xlink:href="#Q"></use>
+  </svg><svg class="icon">
+    <use xlink:href="#Web"></use>
+  </svg><svg class="icon">
+    <use xlink:href="#Ya"></use>
+  </svg><svg class="icon">
+    <use xlink:href="#В"></use>
 </svg>

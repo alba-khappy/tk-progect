@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TK PROGECT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min 14.51.04.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container-wrapper">
         <header class="header">
             <p class="logo">LoremIpsum.<span>Net</span></p>
             <nav>
@@ -43,62 +46,151 @@
                     <li>- Totam rem aperiam eaque ipsa</li>
                     <li>- Sit voluptatem accusantium doloremque laudantium</li>
                     <li>- Sed ut perspiciatis, unde omnis iste natus error</li>
-                    </p>
+                </ul>
 
-                    <div class="section-1__container">
-                        <a href="" class="section-1__a section-1__a--order">ЗАКАЗАТЬ</a>
-                        <a href="" class="section-1__a section-1__a--more-info">ПОДРОБНЕЕ</a>
-                    </div>
+                <div class="section-1__container">
+                    <a href="" class="section-1__a section-1__a--order">ЗАКАЗАТЬ</a>
+                    <a href="" class="section-1__a section-1__a--more-info">ПОДРОБНЕЕ</a>
+                </div>
+
 
             </section>
 
             <section class="section-2">
-                <h2 class="section-2__h2"> 
+                <h2 class="section-2__h2">
                     ОФОРМЛЕНИЕ <span>ЗАКАЗА</span>
                 </h2>
-                <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
-                <ul>
-                    <li class="section-2__li">
-                        <div class="section-2__div">
-                            <svg></svg>
-                        </div>
-                        <p>Lorem ipsum dolor
-                            sit amet</p>
+                <p class="section-2--subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+                <ul class="section-2__ul">
+                    <li class="section-2__li section-2__li--big-item">
+                        <p class="section-2__p--list-item-inner"></p>
+                        <p class="section-2__p--list-item">Lorem ipsum dolor sit amet</p>
                     </li>
-                    
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--big-item">
+                        <p class="section-2__p--list-item-inner"></p>
+                        <p class="section-2__p--list-item">Сonsecteturadipiscing elit</p>
+                    </li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--big-item">
+                        <p class="section-2__p--list-item">Sed do eiusmod tempor</p>
+                    </li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--big-item">
+                        <p class="section-2__p--list-item">Esse cillum dolore eu fugiat</p>
+                    </li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--small-item"></li>
+                    <li class="section-2__li section-2__li--big-item">
+                        <p class="section-2__p--list-item">Excepteur sint occaecat cupidatat non proident</p>
+                    </li>
+
                 </ul>
+
+                <div class="section-2__forms">
+                    <div class="container">
+                        <select name="select" id="selectCustom">
+                            <option value="">Выберите тип системы</option>
+                            <option>А</option>
+                            <option>Б</option>
+                            <option>В</option>
+                            <option>Г</option>
+                            <option>Д</option>
+                            <option>Е</option>
+                        </select>
+                    </div>
+                    <input name="Ваш e-mail" type="text" placeholder="Ваш e-mail" data-validate-field="name" id="email"
+                        class="input" required>
+                    <input name="Ваше имя" type="text" placeholder="Ваше имя" data-validate-field="name" id="name"
+                        class="input" required>
+                </div>
+                <div class="section-2__wrapper-slider-button">
+                <div>
+                    <p class="section-2__slider--p">
+                        <label for="amount">Sed ut perspiciatis, unde omnis iste natus</label>
+                        <input type="text" id="amount" readonly>
+                    </p>
+                    <div id="slider-range-min"></div>
+                </div>
+                <div>???</div>
+                </div>
+                <button type="submit" class="section-2--button">ОТПРАВИТЬ</button>
             </section>
         </main>
         <footer class="footer">
-            <p class="footer__p">
+            <p class="footer__copyright">
                 © 2018 «LoremIpsum.net» Все права защищены.
             </p>
-            <ul>
+            <ul class="footer_ul">
+                <li class="footer__li">
+                    <svg class="footer__svg footer__svg--1">
+                        <use xlink:href='./img/sprite.svg#Q' />
+                    </svg>
+                    <p class="footer__p">Qiwi wallet</p>
+                </li>
+                <li class="footer__li">
+                    <svg class="footer__svg footer__svg--2">
+                        <use xlink:href='./img/sprite.svg#Ya' />
+                    </svg>
+                    <p class="footer__p">Yandex Money</p>
+                </li>
                 <li class="footer__li">
                     <svg class="footer__svg">
-                        <use xlink:href='./img/sprite.svg#1' />
+                        <use xlink:href='./img/sprite.svg#Web' />
                     </svg>
-                    <p>Qiwi wallet</p>
+                    <p class="footer__p">Web Money</p>
                 </li>
                 <li class="footer__li">
-                    <svg></svg>
-                    <p>Qiwi wallet</p>
+                    <div class="footer__span--icon footer__svg--4"></div>
+                    <p class="footer__p">info@ipsum228.com</p>
                 </li>
                 <li class="footer__li">
-                    <svg></svg>
-                    <p>Qiwi wallet</p>
-                </li>
-                <li class="footer__li">
-                    <svg></svg>
-                    <p>Qiwi wallet</p>
-                </li>
-                <li class="footer__li">
-                    <svg></svg>
-                    <p>Qiwi wallet</p>
+                    <p class="footer__img--5">B</p>
+                    <p class="footer__p">Мы вконтакте</p>
                 </li>
             </ul>
         </footer>
     </div>
+
+    <script src="./js/choices.min.js"></script>
+    <script>
+        const element = document.querySelector('#selectCustom');
+        const choices = new Choices(element, {
+            searchEnabled: false,
+            itemSelectText: ''
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#slider-range-min").slider({
+                range: "min",
+                value: 37,
+                min: 1,
+                max: 100,
+                slide: function (event, ui) {
+                    $("#amount").val("%" + ui.value);
+                }
+            });
+            $("#amount").val($("#slider-range-min").slider("value") + "%");
+        });
+    </script>
 </body>
 
 </html>
